@@ -1,8 +1,8 @@
-num=int(input("Enter an Year: "))
+year=int(input("Enter an Year: "))
 
 #Even
-if num%4 == 0:
-    print(num, "is a leap year.")
+if year%4 == 0:
+    print(year, "is a leap year.")
 #Odd
 else:
-    print(num, "is not a Leap Year.")
+    print(year, "is not a Leap Year.")
