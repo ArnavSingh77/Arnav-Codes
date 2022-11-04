@@ -1,4 +1,4 @@
-num=int(input("Enter Number: "))
+num=int(input("Enter an Year: "))
 
 #Even
 if num%4 == 0:
