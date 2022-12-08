@@ -4,6 +4,7 @@ Please select the type of operation you want to perform with Arnav's Calculator:
     + for addition
     - for subtraction
     * for multiplication
+    ^ for power
     % for Modulo Division
     // for Floor Division
     '''
@@ -32,6 +33,13 @@ elif choice == '*':
     f= d*e
 
     print(d, " * ", e, " = ", f)
+    
+ #Power
+if choice == '^':
+    m= int(input("Type the Desired Base: "))
+    n= int(input("Type the Desired Power: "))
+    o= m**n
+    print(m, " To The Power ", n, " = ", o)
 
 #Modulo Division
 elif choice == '%':
