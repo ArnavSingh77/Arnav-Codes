@@ -35,7 +35,7 @@ elif choice == '*':
     print(d, " * ", e, " = ", f)
     
  #Power
-if choice == '^':
+elif choice == '^':
     m= int(input("Type the Desired Base: "))
     n= int(input("Type the Desired Power: "))
     o= m**n
