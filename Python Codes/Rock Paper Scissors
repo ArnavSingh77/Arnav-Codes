@@ -22,3 +22,5 @@ while True:
         break
     else:
         print("Invalid choice. Please try again.")
+
+# This code takes the player's input and randomly generates a move for the computer. It then determines the winner and prints the result. The game continues until the player enters "q" to quit.
