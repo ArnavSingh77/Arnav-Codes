@@ -4,6 +4,7 @@ n2=int(input("Enter the second Number: "))
 print("=====================================================================================")
 n3=int(input("Enter the third Number: "))
 print("=====================================================================================")
+
 #Addition
 print("Addition: ", n1+n2+n3)
 print("=====================================================================================")
@@ -20,10 +21,12 @@ print("=========================================================================
 div1 = n1//n2
 print("Rounded off Quotient on dividing First Number with Second Number: ", div1)
 print("=====================================================================================")
-# Floor Division
+
+# Modulo Division
 div2 = n1%n2
 print("Remainder on dividing First Number with Second Number: ", div2)
 print("=====================================================================================")
+
 # Exponentiation
 exp1 = n1 ** n2
 exp2 = n2 ** n3
@@ -32,6 +35,7 @@ print("Number 1 raised to the power of Number 2:", exp1)
 print("Number 2 raised to the power of Number 3:", exp2)
 print("Number 1 raised to the power of Number 3:", exp3)
 print("=====================================================================================")
+
 #Comparing
 if n1>n2 and n1>n3:
     print("First Number is the Greatest!")
