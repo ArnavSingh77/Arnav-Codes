@@ -42,3 +42,19 @@ print("Extend: ",fruits)
 
 #len(list) :- It gives the total length of the list.
 print("LEN: ", len(fruits))
+
+'''
+
+This code demonstrates various list manipulation operations in Python using the list named "fruits." Here's a breakdown of what the code does:
+
+1. Appends the string "Pear" to the end of the list using the `append()` method and prints the updated list.
+2. Inserts the string "not" at index 2 in the list using the `insert()` method and prints the updated list.
+3. Removes the element at index 2 from the list using the `pop()` method and prints the updated list.
+4. Deletes elements within the range of index 1 to 3 (excluding 3) using the `del` statement and prints the updated list.
+5. Removes the first occurrence of the string "Mango" from the list using the `remove()` method and prints the updated list.
+6. Sorts the list in increasing order using the `sort()` method and prints the sorted list.
+7. Reverses the order of elements in the list using the `reverse()` method and prints the reversed list.
+8. Extends the list with elements from another list `adj` using the `extend()` method and prints the extended list.
+9. Prints the length of the list using the `len()` function.
+
+'''
