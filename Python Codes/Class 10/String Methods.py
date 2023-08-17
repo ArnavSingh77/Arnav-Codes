@@ -17,19 +17,19 @@ print("LOWER:", text.lower())
 print("JOIN:", '-'.join(text))
 
 # Checks if all characters in the string are uppercase
-print("UPPER:",text.isupper())
+print("IS UPPER:",text.isupper())
 
 # Checks if all characters in the string are lowercase
-print("LOWER:",text.islower())
+print("IS LOWER:",text.islower())
 
 # Returns “True” if the string is a title cased string
-print("TITLE:",text.istitle())
+print("IS TITLE:",text.istitle())
 
 # Returns “True” if all characters in the string are whitespace characters
-print("SPACE:",text.isspace())
+print("IS SPACE:",text.isspace())
 
 # It returns an integer which is the length of the string. 
-print("COUNT:", len(text))
+print("COUNT/LEN:", len(text))
 
 # Program to reverse a string
 print("REVERSE:",text[::-1])
