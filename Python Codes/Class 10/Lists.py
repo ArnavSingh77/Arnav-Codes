@@ -1,31 +1,31 @@
-a = ["arnav", "is", "a","good","boy"]
+fruits = ["Watermelon", "Guava", "Strawberry","Mango","Apple"]
 
 #Append
-a.append(":)")
-print("Append: ", a)
+fruits.append("Pear")
+print("Append: ", fruits)
 print("")
 
 #Insert
-a.insert(2,"not")
-print("Insert: ", a)
+fruits.insert(2,"not")
+print("Insert: ", fruits)
 print("")
 
 #Pop
-a.pop(2)
-print("Pop: ", a)
+fruits.pop(2)
+print("Pop: ", fruits)
 print("")
 
 #Del
-del a[1]
-print("Del: ", a)
+del fruits[1]
+print("Del: ", fruits)
 print("")
 
 #Sort
-a.sort()
-print("Sort: ",a)
+fruits.sort()
+print("Sort: ",fruits)
 print("")
 
 #Reverse
-a.reverse()
-print("Reversed: ",a)
+fruits.reverse()
+print("Reversed: ",fruits)
 print("")
