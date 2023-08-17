@@ -39,3 +39,23 @@ print("SLICING:",text[3:12])
 
 # Splitting the string
 print("SPLIT:", text.split())
+
+'''
+
+This code manipulates a given string named "text" using various string methods and operations. It performs the following actions:
+
+Converts the entire string to uppercase using upper() and prints the result.
+Capitalizes the first character of the string using capitalize() and prints the result.
+Converts the starting character of each word to capital using title() and prints the result.
+Converts the entire string to lowercase using lower() and prints the result.
+Joins each character of the string with a hyphen using join() and prints the result.
+Checks if all characters in the string are uppercase using isupper() and prints the result.
+Checks if all characters in the string are lowercase using islower() and prints the result.
+Checks if the string is title-cased using istitle() and prints the result.
+Checks if all characters in the string are whitespace characters using isspace() and prints the result.
+Calculates and prints the length of the string using len().
+Reverses the string using slicing ([::-1]) and prints the result.
+It uses string slicing to extract a substring from index 3 to 11 (exclusive) and prints the result.
+Splits the string into a list of substrings using whitespace as the separator using split() and prints the result.
+
+'''
