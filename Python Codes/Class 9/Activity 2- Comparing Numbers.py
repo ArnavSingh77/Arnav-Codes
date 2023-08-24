@@ -5,8 +5,8 @@ z=int(input("Enter the Third Number to Compare: "))
 
 #Comparing
 if x>y and x>z:
-    print("X is the Greatest!")
+    print("First Number is the Greatest!")
 elif y>x and y>z:
-    print("Y is the Greatest!")
+    print("Second Number is the Greatest!")
 else:
-    print("Z is the Greatest!")
+    print("Third Number is the Greatest!")
