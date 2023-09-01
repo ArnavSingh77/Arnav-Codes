@@ -1,0 +1,52 @@
+# PYTHON PRACTICAL 1:
+print("PROGRAM 1:")
+text="Good Morning Everyone. It is rainy today."
+print(text)
+print("="*70)
+
+#PYTHON PRACTICAL 2:
+print("PROGRAM 2:")
+A="Programming"
+B="is"
+C="Awesome"
+print(A,B,C)
+print("="*70)
+
+#PYTHON PRACTICAL 3:
+print("PROGRAM 3:")
+#Taking Input
+x=int(input("Enter the First Number to Compare: "))
+y=int(input("Enter the Second Number to Compare: "))
+z=int(input("Enter the Third Number to Compare: "))
+
+#Comparing
+if x>y and x>z:
+    print(x, "is the Greatest!")
+elif y>x and y>z:
+    print(y, "is the Greatest!")
+else:
+    print(z, "is the Greatest!")
+
+print("="*70) 
+# PYTHON PRACTICAL 4:
+print("PROGRAM 4:")
+num = int(input("Enter a Number to find the sum of natural numbers upto that number: "))
+if num < 0:
+   print("Enter a positive number")
+else:
+   sum = 0
+   while(num > 0):
+       sum += num
+       num -= 1
+   print("The sum is", sum)
+print("="*70)
+
+# PYTHON PRACTICAL 5:
+print("PROGRAM 5:")
+prog=["Python","C","Java","Cobol"]
+print("The list is: ",prog)
+prog.insert(3, "Fortran")
+print("Inserted Fortran:",prog)
+prog.sort()
+print("List in ascending order:",prog)
+print("="*70)
