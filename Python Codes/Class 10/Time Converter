@@ -1,0 +1,4 @@
+time=int(input("Enter Time in Hours: "))
+
+print(time, "hours in minutes is:",time*60)
+print(time, "hours in seconds is:",time*3600)
