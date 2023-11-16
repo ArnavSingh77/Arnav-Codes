@@ -1,7 +1,8 @@
 import cv2
 import pandas as pd
 
-img_path = r'ColorSense/colorpic.jpg'
+# TODO: Input the path of the image here ⬇️
+img_path = r'INPUT_YOUR_IMG_PATH'
 img = cv2.imread(img_path)
 
 # declaring global variables (are used later on)
