@@ -1,9 +1,7 @@
-# Dataset - https://github.com/codebrainz/color-names/blob/master/output/colors.csv
-
 import cv2
 import pandas as pd
 
-img_path = r'/Users/arnavsingh/Desktop/ColorSense/colorpic.jpg'
+img_path = r'ColorSense/colorpic.jpg'
 img = cv2.imread(img_path)
 
 # declaring global variables (are used later on)
