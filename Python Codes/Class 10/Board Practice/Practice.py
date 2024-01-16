@@ -58,14 +58,15 @@ jeans=[1500,3500,6500,6700,6000,6800]
 tshirt=[4400,4500,5500,6000,5600,6300]
 shirt= [6500,5000,5800,6300,6200,4500]
 
-plt.plot(month,jeans, label="Jeans", color="red", marker="o", markerfacecolor="blue", markersize=12, linewidth=5,linestyle='dashed')
+plt.plot(month,jeans, label="Jeans", color="red", marker="h", markerfacecolor="blue", markersize=12, linewidth=5,linestyle='-')
 
-plt.plot(month,tshirt, label="T-Shirt", color="blue", marker="o", markerfacecolor="blue", markersize=12, linewidth=5,linestyle='dashed')
+plt.plot(month,tshirt, label="T-Shirt", color="y", marker="s", markerfacecolor="blue", markersize=12, linewidth=5,linestyle='--')
 
-plt.plot(month,shirt, label="Shirt", color="green", marker="o", markerfacecolor="blue", markersize=12, linewidth=5,linestyle='dashed')
+plt.plot(month,shirt, label="Shirt", color="green", marker="o", markerfacecolor="blue", markersize=12, linewidth=5,linestyle='-.')
 
 plt.xlabel('Month')
 plt.ylabel('Sales')
 plt.title('Clothing Store Sales')
 plt.legend()
+plt.grid(True)
 plt.show()
