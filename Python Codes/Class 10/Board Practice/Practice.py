@@ -47,3 +47,25 @@ plt.ylabel("Rating")
 plt.legend(bars, games)
 
 plt.show()
+
+#Clothing Store Line Graph
+#Consider the following data of a clothes store and plot the data on the line chart:
+
+import matplotlib.pyplot as plt
+
+month=['March', 'April', 'May', 'June', 'July', 'August']
+jeans=[1500,3500,6500,6700,6000,6800]
+tshirt=[4400,4500,5500,6000,5600,6300]
+shirt= [6500,5000,5800,6300,6200,4500]
+
+plt.plot(month,jeans, label="Jeans", color="red", marker="o", markerfacecolor="blue", markersize=12, linewidth=5,linestyle='dashed')
+
+plt.plot(month,tshirt, label="T-Shirt", color="blue", marker="o", markerfacecolor="blue", markersize=12, linewidth=5,linestyle='dashed')
+
+plt.plot(month,shirt, label="Shirt", color="green", marker="o", markerfacecolor="blue", markersize=12, linewidth=5,linestyle='dashed')
+
+plt.xlabel('Month')
+plt.ylabel('Sales')
+plt.title('Clothing Store Sales')
+plt.legend()
+plt.show()
